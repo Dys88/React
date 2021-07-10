@@ -19,8 +19,9 @@ const App = () => {
   const resetNum = () => {
       setNum (0);  
   };
-   return (
-    <div className="App">
+  return (
+    <div className="Main">
+    <h1>Calculate ! </h1>
       <header className="App-header">
         <div>
         {/* Display digit */}
@@ -35,7 +36,7 @@ const App = () => {
         <button  onClick={resetNum} > Reset </button>
         </div>
       </header>
-    </div>
+      </div>  
   );
 }
 export default App;
